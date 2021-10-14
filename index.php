@@ -19,6 +19,7 @@ x$ = 5;
 ?>
 
 <?php
+
 function something( {
     $y = 10;
 })
@@ -31,6 +32,10 @@ echo $x;
 
 
 
+
+
+
+?>
 
 </body>
 
