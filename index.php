@@ -24,7 +24,7 @@ function something( {
     $y = 10;
 })
 
-echo $x;
+echo $y;
 
 ?>
 
