@@ -45,11 +45,20 @@ $_SESSION['username'] = "Anaria.Newsom";
     </ul>
     <div>
         <form action="includes/login.inc.php" method="post">
-            <input type="text" name=""
+          <input type="text" name="mailuid" placeholder="Username/E-mail...">
+          <input type="password" name="pwd" placeholder="Password...">
+          <button type="submit" name="login-submit">login</button>
+        </form>
+        <a href="signup.php">Signup</a>
+<form class
 
 
 
-              </form>
+
+
+
+
+             </form>
             </div>
         </nav>
     </header>
