@@ -50,8 +50,11 @@ $_SESSION['username'] = "Anaria.Newsom";
           <button type="submit" name="login-submit">login</button>
         </form>
         <a href="signup.php">Signup</a>
-<form class
-
+        <form class="" action="index.html" method="post">
+          <input type="text" name="mailuid" placeholder="Username/E-mail...">
+          <input type="password" name="pwd" placeholder="Password...">
+          <button type="submit" name="login-submit">login</button>
+        </form>
 
 
 
