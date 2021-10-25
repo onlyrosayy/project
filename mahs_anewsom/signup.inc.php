@@ -57,9 +57,8 @@ else {
 else {
     $hashedPwd = password_harsh($password, PASSWORD_DEFAULT);
 
-    mysqli_stmt_blind_param($stmt, "sss", $username);
+    mysqli_stmt_blind_param($stmt, "sss", $username, $email, $hashedPwd);
     mysqli_stmt_execute($stmt);
-    mysqli_stmt_store_result($stmt);
     header("Location: ../signup.php?signup=success");
     exit();
     }
@@ -68,7 +67,6 @@ else {
     mysqli_close($conn);
 
 }
-
 else {
     header("Location: ../signup.php");
     exit();
