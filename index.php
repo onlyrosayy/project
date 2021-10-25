@@ -42,19 +42,6 @@ $_SESSION['name'] = "17";
 
 ?>
 
-<main>
-
-
-
-
-
-
-
-</main>
-
 </body>
 
 </html>
-
-
-

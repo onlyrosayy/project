@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="example">
+    <meta name="viewpoint" content="with-device-width, initial-scale=1">
     <title>Header-Anaria Newsom</title>
-    <link rel="stylesheet type"text"=text="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -50,21 +53,13 @@ $_SESSION['username'] = "Anaria.Newsom";
           <button type="submit" name="login-submit">login</button>
         </form>
         <a href="signup.php">Signup</a>
-        <form class="" action="index.html" method="post">
-          <input type="text" name="mailuid" placeholder="Username/E-mail...">
-          <input type="password" name="pwd" placeholder="Password...">
-          <button type="submit" name="login-submit">login</button>
+        <form action="includes/logout.inc.php" method="post">
+          <button type="submit" name="logout-submit">logout</button>
         </form>
+    </div>
+</nav>
 
-
-
-
-
-
-             </form>
-            </div>
-        </nav>
-    </header>
+</header>
 
 </body>
 
