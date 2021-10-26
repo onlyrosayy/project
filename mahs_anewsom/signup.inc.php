@@ -13,7 +13,7 @@ if (empty($username) || empty($username || empty($username || empty($username)) 
     exit();
 }
 else if(!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/", username))
-    header("Location: ../signup.php?error=invalidmail&uid=".$username);
+    header("Location: ../signup.php?error=invalidmail&uid=");
     exit();
 }
 else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -25,7 +25,7 @@ else if(!preg_match("/^[a-zA-Z0-9]*$/", $username)) {
     exit();
 }
 else if ($password !== $passwordRepeat) {
-    header(Location: ../signup.php?error=passwordcheckuid=".$username,"&mail)
+    header(Location: ../signup.php?error=passwordcheckuid=".$username,"&mail=" .$email);
     exit();
 }
 else {
